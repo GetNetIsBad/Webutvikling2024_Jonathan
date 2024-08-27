@@ -9,3 +9,11 @@
 body {
     background-image: url("bilder/bakgrunn.png");
   }
+
+.center {
+
+    text-align: center;
+  
+    border: 3px solid green;
+  
+}
