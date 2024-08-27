@@ -13,7 +13,10 @@ body {
 .center {
 
     text-align: center;
+
+    color: paleturquoise;
   
-    border: 3px solid green;
-  
+    border: 3px solid black;
+    
+    fill: white;
 }
