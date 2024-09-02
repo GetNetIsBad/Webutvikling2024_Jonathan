@@ -1,22 +1,58 @@
-.paleturquise_text{
-    color: paleturquoise;
-}
-
-#header{
+/*#header{
     color: rgb(0, 255, 255);
+    text-align: center;
 }
 
 body {
     background-image: url("bilder/bakgrunn.png");
   }
 
-.center {
+p{
 
-    text-align: center;
+    margin: auto;
+
+    width: 640px;
+
+    padding: 50px;
+
+    font-size: large;
 
     color: paleturquoise;
   
-    border: 3px solid black;
+    border: 3px solid rgb(0, 0, 0,);
     
-    fill: white;
+    background-color: rgb(255, 255, 255, 0.7);
+    
+    
+}
+
+#advert{
+    margin-right: 10%;
+
+   
+}
+*/
+.container{
+    display: flex;
+    height: 300px;
+
+}
+
+.main{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.left{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+
+.right{
+    width: 100px;
+    height: 100px;
+    margin: auto;
 }
