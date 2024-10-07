@@ -1,0 +1,73 @@
+
+header{
+    background-image: url(lastned.jpg);
+    animation-name: oppie;
+    animation-duration: 5s;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:xx-large;
+    padding: 70px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    flex-wrap: wrap;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+    text-underline-position: below;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+a{
+    color: white;
+}
+
+main{
+    max-width: 70%;
+    min-width: 400px;
+    padding: 30px;
+}
+
+article{
+    display: inline-block;
+    border: solid black 3px;
+    padding: 5px;
+    margin: 30px;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+@keyframes oppie{
+    from{ background-image: url(lastned.jpg);}
+    to{background-image: url(lastned2.jpg);}
+}
+
+
+
