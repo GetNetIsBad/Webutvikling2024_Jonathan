@@ -70,7 +70,13 @@ main{
         background-image: url(../sprites/dead.png);
         bottom: 53px;
         left: 1100;
-        transform: rotate(90);
+        transform: rotate(0deg);
+    }
+
+    100%{
+        background-image: url(../sprites/dead.png);
+        bottom: 120px;
+        transform: rotate(60deg);
     }
 }
 

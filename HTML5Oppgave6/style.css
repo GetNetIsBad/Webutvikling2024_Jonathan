@@ -1,0 +1,61 @@
+.gridbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+    
+}
+
+.artikkel {
+    border: 1px solid black;
+    max-width: 100px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navmeny{
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        flex-wrap: wrap;
+    }
+
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 18px 20px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111;
+        text-underline-position: below;
+    }
+}
+
+grid-item-1 {
+    grid-column: auto;
+    
+}
+
+grid-item-2 {
+    grid-column: auto;
+}
+
+grid-item-3 {
+    grid-column:auto;
+}
+
+grid-item-4 {
+    grid-column: 2/3;
+}
