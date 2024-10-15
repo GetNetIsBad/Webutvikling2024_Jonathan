@@ -30,6 +30,14 @@ main{
     grid-row-end: 3;
 }
 
+footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
 img {
     width: 100%; /* Bildet tar opp 100% av containerens bredde */
     max-width: 400px; /* Setter en maksimal bredde på 400px for bilder */
